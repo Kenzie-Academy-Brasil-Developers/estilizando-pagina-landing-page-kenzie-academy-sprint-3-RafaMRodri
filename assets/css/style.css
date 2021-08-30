@@ -47,7 +47,7 @@ html, body, figure, div, input, textarea, p, h1, h2, h3, h4, h5, h6, ul{
     list-style: none;
 }
 img{
-    max-width: 800px;
+    max-width: 100%;
 }
 div.flex{
     display: flex;
@@ -67,6 +67,71 @@ div.container{
     max-width: 1140px;
     margin:0 auto;
 }
+div.flex{
+    background-color: whitesmoke;
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+}
+.secaoCalendar{
+    text-align: center;
+    color: var(--grey);
+}
+.calendario li{
+    display: flex;
+    border: 1px solid var(--dark_blue);
+    flex-direction: column;
+    align-items: center;
+    margin: 10%;
+
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.calendario li h3{
+    padding: 5%;
+    font-size: 19px;
+    color: var(--grey);
+}
+.calendario li p{
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 5%;
+    border-bottom: 1px solid whitesmoke;
+    color: var(--light_grey);
+    
+}
+.calendario-data{
+    background-color: var(--dark_blue);
+    color: var(--white);
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+.calendario-data-rodape{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.calendario-data-rodape span{
+    font-size: 30px;
+    color: var(--light_grey);
+}
+.calendario button{
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--light_blue);
+    color: var(--white);
+}
+form {
+
+}
 /* GERAL */
   
 /* HTML */
@@ -83,7 +148,7 @@ header{}
   
 /* FOOTER */
 footer{
-    background-color: var(--light_grey);
+
 }
 /* FOOTER */
 
