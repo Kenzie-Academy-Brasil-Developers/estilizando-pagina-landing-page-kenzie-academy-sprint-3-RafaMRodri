@@ -15,19 +15,23 @@
 
     <div class="large-container">
       <!-- LOGO -->
-      <figure>
-        <img src="assets/img/logo.svg" alt="Logo Kenzie Academy">
-        <figcaption>Logo Kenzie Academy</figcaption>  
-      </figure>
+      <div class = "logo">
+        <figure>
+          <img src="assets/img/logo.svg" alt="Logo Kenzie Academy">
+          <!--<figcaption>Logo Kenzie Academy</figcaption>-->  
+        </figure>
+      </div>
 
       <!-- MENU DE NAVEGAÇÃO -->
-      <nav>
+      <div class = "menu">
+      <nav class = "itensMenu" > 
         <ul>
           <li><a href="#1">Sobre a Kenzie</a></li>
           <li><a href="#2">Agenda</a></li>
           <li><a href="#3">Contato</a></li>
         </ul>
       </nav>
+    </div>
     </div>
 
   </header>
@@ -37,14 +41,13 @@
 
     <!-- ÁREA DE DESTAQUE -->
     <section class="secaoDestaque">
-
-      <h2>Lorem ipsum dolor sit Python</h2>
-      <p>100% Online</p>
+      <h2 id="tituloDestaque">Lorem ipsum dolor sit Python</h2>
+      <p id="conteudoDestaque">100% Online</p>
 
       <!-- FORMULÁRIO -->
       <div class="secaoDestaqueFormulario">
-        <input type="email"  placeholder="E-mail" required>
-        <button type="button">Subscribe</button>
+        <input id="inputEmail" type="email"  placeholder="E-mail" required>
+        <button id="botaoFormulario" type="button">Subscribe</button>
       </div>
 
     </section>
