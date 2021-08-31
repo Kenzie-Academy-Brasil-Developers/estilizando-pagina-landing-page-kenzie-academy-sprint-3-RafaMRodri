@@ -129,6 +129,9 @@ div.flex{
     background-color: var(--light_blue);
     color: var(--white);
 }
+.secaoContato ul{
+    order: 2;
+}
 form {
 
 }
