@@ -125,6 +125,9 @@ img {
     list-style-type: circle;
     display: flex;
     margin-left: 15px;
+    list-style-position: inside;
+    text-align: left;
+    flex-direction: column;
 }
 #javaphoto{
 }
